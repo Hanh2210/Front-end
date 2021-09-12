@@ -1,0 +1,38 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #2c2e3d;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /*1rem=10px  => 1.6rem=16px*/
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    min-width: 155px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    border-radius: 26px;
+    font-size: 1.9rem;
+    outline: none;
+    color: var(--white-color);
+    background-color: var(--text-color);
+}
+
+.btn.btn--disabled {
+    cursor: default;
+    background-color: #b6c6c9;
+    color: var(--white-color);
+} 
