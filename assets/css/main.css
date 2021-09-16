@@ -1,0 +1,156 @@
+.app {
+    display: flex;
+    overflow: hidden;
+    background-color: var(--white-color);
+}
+
+.table {
+    margin: 100px 0;
+    display: flex;
+}
+
+.table-item {
+    width: 392px;
+    border: 0.5px solid #ccc;
+}
+
+.table-basic-head {
+    background-color: #00bcd4;
+}
+
+.table-advance-head {
+    background-color: #1c94ca;
+}
+
+.table-life-head {
+    background-color: #7264bd;
+}
+
+.table-head {
+    position: relative;
+    width: 100%;
+    height: 270px;
+}
+
+.table-head__circle {
+    position: absolute;
+    top: -60px;
+    left: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--text-color);
+    width: 122px;
+    height: 122px;
+}
+
+.table-head__circle-new {
+    position: absolute;
+    top: -34px;
+    left: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00bcd4;
+    width: 64px;
+    height: 64px;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.table-basic-head__price {
+    color: #00bcd4;
+}
+
+.table-advance-head__price {
+    color: #1c94ca;
+}
+
+.table-life-head__price {
+    color: #7264bd;
+}
+
+.table-head__price {
+    font-size: 3.2rem;
+    font-weight: 100;
+}
+
+.table-head__circle-person {
+    font-size: 1.6rem;
+    color: #7e8b98;
+    padding-top: 16px;
+}
+
+.table-head__des {
+    padding: 120px 0px 0px 50px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+.table-head__des-title {
+    color: var(--white-color);
+    font-size: 3.6rem;
+}
+
+.table-head__des-span {
+    font-weight: 100;
+}
+
+.table-head__des-para {
+    letter-spacing: normal;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.table-body {
+    width: 100%;
+}
+
+.table-body__des-title {
+    padding-left: 44px;
+    padding-top: 28px;
+    font-size: 2.4rem;
+    color: #5f727f;
+    font-weight: 300;
+}
+
+.table-body__des-para {
+    padding: 16px 0 26px 44px;
+    font-size: 1.4rem;
+    color: #7e8b98;
+    font-weight: 300;
+}
+
+.table-body__list {
+    font-size: 1.6rem;
+    color: #5f727f;
+    font-weight: 400;
+}
+
+.table-body__list ul li {
+    line-height: 50px;
+    list-style-type: none;
+    padding-left: 44px;
+}
+
+.table-body__list ul li:hover{
+    color: rgb(228, 95, 95);
+}
+
+.table-body__list ul li:nth-child(odd) {
+    background-color: #f4f6f7;
+}
+
+.table-body__list-item--icon {
+    outline: none;
+    margin-right: 14px;
+}
+
+.table-body__btn {
+    width: 100%;
+    padding: 20px 0px 20px 44px;
+}
