@@ -1,14 +1,11 @@
 .grid {
-    width: 100%;
     display: block;
     padding: 0;
 }
 
 .grid.wide {
-    max-width: 1200px;
     margin: 0 auto;
 }
-
 
 /* tablet */
 @media(min-width: 740px) and (max-width: 1023px) {
@@ -31,33 +28,25 @@
         width: 100%;
         margin-top: 60px;
     }
-
-  
 }
 
 /* mobile */
- @media(max-width: 739px) {
+@media(max-width: 739px) {
     .c-12 {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .table{
+    .table {
         display: block;
     }
 
-    .table-item{
+    .table-item {
         width: 100%;
         margin-top: 60px;
     }
 
-    .row {
-        margin-left: -4px;
-        margin-right: -4px;
+    .grid.wide {
+        width: 100%;
     }
-
-    .col {  
-        padding-left: 4px;
-        padding-right: 4px;
-    }
-} 
+}

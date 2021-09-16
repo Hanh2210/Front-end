@@ -2,7 +2,6 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #2c2e3d;
-   
 }
 
 * {
@@ -21,7 +20,7 @@ html {
 
 .btn {
     min-width: 155px;
-    height: 51px;
+    padding: 15px 10px;
     border: none;
     cursor: pointer;
     border-radius: 26px;
@@ -31,8 +30,12 @@ html {
     background-color: var(--text-color);
 }
 
+.btn:hover{
+    background-color: rgb(92, 84, 84);
+}
+
 .btn.btn--disabled {
     cursor: default;
     background-color: #b6c6c9;
     color: var(--white-color);
-} 
+}
